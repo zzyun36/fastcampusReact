@@ -32,6 +32,8 @@ ex> localhost:3000/order-history 라는 경로를 가지게 된다. order라는�
 문제는 ES7+ React/Redux/React-Native snippets 스니펫을 안깔아서 문제였던 것. 
 이전에 깔았었던 것 같은데 왜 갑자기 사라졌을까..? ㅠ
 
-
+[필요패키지]
+npm install @emailjs/browser @reduxjs/toolkit @tosspayments/payment-sdk classnames firebase notiflix react-chartjs-2 react-loader-spinner react-redux react-simple-star-rating react-toastify sass
 
 #23.11.03
+
