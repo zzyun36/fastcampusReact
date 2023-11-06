@@ -36,4 +36,10 @@ ex> localhost:3000/order-history 라는 경로를 가지게 된다. order라는�
 npm install @emailjs/browser @reduxjs/toolkit @tosspayments/payment-sdk classnames firebase notiflix react-chartjs-2 react-loader-spinner react-redux react-simple-star-rating react-toastify sass
 
 #23.11.03
+의문사항> 
+현재 프로젝트가 서버단이기 때문에 콘솔을 찍을 경우에도 터미널에서 확인이 가능하다.
+useState는 클라이언트에서 사용이 가능하기 때문에 'use client'를 써줘야 한다. 
+현재 프로젝트내에서 예를 들어 Login에서 useState를 사용하러면 LoginClient.jsx를 하나 만들어서 사용하겠다.
+
+
 
